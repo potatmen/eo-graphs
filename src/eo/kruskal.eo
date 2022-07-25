@@ -137,10 +137,10 @@
               if. > @
                 eq.
                   x
-                  (^.^.edges.at id).n1
+                  ^.parArr.at (((^.^.edges).at ^.id).n1)
                 with.
                   accum
-                  (^.^.edges.at id).n2
+                  ^.parArr.at (((^.^.edges).at ^.id).n2)
                 with.
                   accum
                   x
